@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CoachingApp</string>
+    <string name="header_image">Header_Image</string>
+    <string name="coaching">Coaching</string>
+    <string name="account">Account</string>
+    <string name="log_out">Log Out</string>
+    <string name="others">OTHERS</string>
+    <string name="buy_courses">Buy Courses</string>
+    <string name="your_courses">Your Courses</string>
+    <string name="your_profile">Your profile</string>
+    <string name="back">back</string>
+    <string name="transaction">Pay the fees of the selected course to our Bkash account and enter
+    the transaction number below:   </string>
+    <string name="account2">ACCOUNT</string>
+    <string name="textview">TextView</string>
+    <string name="Ctext">Welcome to our coaching app.</string>
+    <string name="about_us">
+
+        Our institution was born out of passion .A passion for making  difference
+        Creating a movement of OnnoRokom Manush(different humans) and bringing
+  about  a change.When our institution was founded in the later part of 2000,
+    its founders had no idea that it would take on a life of its own.We provide
+    our best for the good of the students.We have a great number of qualified and
+   experienced teachers and instructors.we provide all kinds of facilities to our students.
+
+    </string>
+
+</resources>
