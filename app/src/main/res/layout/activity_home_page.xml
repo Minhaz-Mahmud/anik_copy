@@ -57,8 +57,9 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
+
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/profile"
+                    android:id="@+id/branches"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -79,7 +80,7 @@
                             android:layout_height="64dp"
                             android:background="@drawable/circlebackground_pink"
                             android:padding="10dp"
-                            android:src="@drawable/baseline_account_box_24"
+                            android:src="@drawable/branches"
 
                             />
 
@@ -87,7 +88,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="Profile"
+                            android:text="BRANCHES"
                             android:textStyle="bold" />
 
 

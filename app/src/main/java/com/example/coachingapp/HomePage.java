@@ -26,7 +26,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class HomePage extends AppCompatActivity {
 
-    CardView profile,email,phone_us,about_us;
+    CardView branches,email,phone_us,about_us;
     Toolbar toolbar;
     DrawerLayout drawerLayout;
     NavigationView navigationView;
@@ -47,7 +47,7 @@ public class HomePage extends AppCompatActivity {
         drawerLayout=findViewById(R.id.drawerLayout);
         navigationView=findViewById(R.id.navigationView);
 
-        profile=findViewById(R.id.profile);
+        branches=findViewById(R.id.branches);
         email=findViewById(R.id.email);
         phone_us=findViewById(R.id.phone_us);
         about_us=findViewById(R.id.about_us);
@@ -87,12 +87,13 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
-        profile.setOnClickListener(new View.OnClickListener() {
+        branches.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(HomePage.this,Account.class));
+                startActivity(new Intent(HomePage.this,Branches.class));
             }
         });
+
 
         email.setOnClickListener(new View.OnClickListener() {
             @Override
